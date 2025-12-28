@@ -21,3 +21,11 @@ p {
   padding: 10;
 
 }
+
+
+.contenedor { background-color: rgb(170, 255, 0);
+}
+
+#main p { font-weight: bold;
+color: black;
+}
