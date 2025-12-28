@@ -1,5 +1,16 @@
+/* estilo por nombre de etiqueta */
 p {
   color: red;
   width: 450px;
   border: 1px solid blue;
+}
+
+   /* estilo por clase*/
+    .mi-clase {
+    background-color: yellow;
+}
+   
+   /* estilo por id */
+    #mi-id {
+    font-size: 24px;
 }
