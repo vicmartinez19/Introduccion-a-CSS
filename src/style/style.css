@@ -16,16 +16,61 @@ p {
 }
 
 * {
-
   margin: 10;
   padding: 10;
 
 }
-
 
 .contenedor { background-color: rgb(170, 255, 0);
 }
 
 #main p { font-weight: bold;
 color: black;
+}
+
+#ejemplos-display {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
+
+/* Estilo base para todas las cajas demo */
+.caja {
+    background-color: #f4f4f4;
+    border: 1px solid #333;
+    padding: 8px;
+    margin: 6px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* BLOQUES: uno debajo de otro, ocupan todo el ancho */
+.caja-block {
+    display: block;
+    width: 100%;
+}
+
+/* INLINE: se comportan como texto, no respetan width/height */
+.caja-inline {
+    display: inline;
+    /* width/height no tienen efecto en inline, eso lo hace demostrativo */
+    margin: 0 4px;
+    padding: 2px 6px;
+    background-color: #ffeaa7;
+}
+
+/* CONTENEDOR para ver mejor los inline-block */
+.contenedor-inline-block {
+    border: 1px dashed #aaa;
+    padding: 10px;
+}
+
+/* INLINE-BLOCK: se alinean en fila, pero sí respetan width/height */
+.caja-inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin: 4px;
+    line-height: 60px; /* centra el texto verticalmente */
+    background-color: #a3d5ff;
 }
