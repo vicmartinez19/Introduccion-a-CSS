@@ -1,2 +1,3 @@
 # Introduccion-a-CSS.
 Repositorio de introducción para CSS dedicado a uso ludido y practica dentro de las clases
+# En este proyecto se desarrolló una introducción práctica a CSS aplicada a una página web sencilla, con el objetivo de comprender cómo se utilizan los estilos para dar formato y presentación al contenido HTML. A través de este repositorio se trabajaron los conceptos fundamentales de CSS, enfocándose en la estructura básica de sus reglas y en la forma correcta de integrarlo con HTML.
