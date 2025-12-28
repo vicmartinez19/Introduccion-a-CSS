@@ -1,8 +1,7 @@
 /* estilo por nombre de etiqueta */
 p {
   color: red;
-  width: 450px;
-  border: 1px solid blue;
+  width: 450px;;
 }
 
    /* estilo por clase*/
@@ -18,7 +17,12 @@ p {
 * {
   margin: 10;
   padding: 10;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+body {
+    background-color: #00aaff;  
+    color: #000000;
 }
 
 .contenedor { background-color: rgb(170, 255, 0);
