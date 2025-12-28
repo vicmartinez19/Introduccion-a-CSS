@@ -14,3 +14,10 @@ p {
     #mi-id {
     font-size: 24px;
 }
+
+* {
+
+  margin: 10;
+  padding: 10;
+
+}
